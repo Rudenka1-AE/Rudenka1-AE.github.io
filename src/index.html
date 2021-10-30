@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Андрей</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">Андрей Браун</div>
+        <div class="menu"><ul>
+            <li>Обо мне</li>
+            <li>Услуги</li>
+            <li>Кейс</li>
+            <li>Прайс</li>
+            <li>Контакты</li>
+            <li>отзывы</li>
+        </ul></div>
+    </nav>
+</header>
+<div class="mein"><div class="title">
+    <h1>Привет <br> Я Андрей Браун</h1>
+    <h4>Фулл Степ Веб разработчик</h4>
+    <input type="submit" value="Обо мне"> 
+    <input type="submit" value="Мои работы"> 
+</div>
+</div>
+<div class="mein2">
+    <h2>ОБО МНЕ</h2>
+    <img src="" alt="">
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit minus provident hic sit quidem dolorem reiciendis. Doloribus necessitatibus tempore ipsam maiores, similique exercitationem perferendis rem in expedita ducimus enim.</span>
+    <input type="submit" value="Скачать резюме"> 
+</div>
+<div>
+    <h2>ЧТО Я УМЕЮ</h2>
+    <img src="" alt="">
+    <img src="" alt="">
+    <h3>Разработка</h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    <h3>СЕО-Оптимизация</h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    <h3>Веб-дизайн</h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    <h3>Маркетинг</h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+</div>
+<div>
+    <h2>Кейсы</h2>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur omnis quaerat dolor minus esse aliquam fuga, cupiditate quos ad possimus. Repellat optio, porro veritatis modi exercitationem error suscipit blanditiis cumque.</span>
+    <img src="" alt="">
+    <h3>Название проекта</h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea explicabo corrupti accusantium eos ab fugiat tenetur rerum reiciendis itaque animi maiores ex repellendus, esse vitae alias atque aliquam obcaecati? A?</span>
+    <h3>CLIENT:</h3>
+    <span>Какая-то компания</span>
+    <h3>WEBSITE:</h3>
+    <span>http://www.riortioirot.com</span>
+    <input type="submit" value="VISIT LIVE SITE">
+</div>
+<div>
+    <h2>Расчет стоимости</h2>
+    <h3>ТИП САЙТА</h3>
+    <select name="" id=""></select>
+    <h3>ДИЗАЙН</h3>
+    <select name="" id=""></select>
+    <h3>АДАПТИВНОСТЬ</h3>
+    <select name="" id=""></select>
+    <p>Сроки</p>
+    <p>Стоимость</p>
+</div>
+<div>
+    <h2>НЕМНОГО СТАТИКИ</h2>
+    <H3><B>120</B></H3>
+    <p>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+    <H3><B>4,600</B></H3>
+    <p>ЧАСОВ РАБОТЫ</p>
+    <H3><B>340</B></H3>
+    <p>ПРОЕКТОВ ЗАВЕРШЕНО</p>
+    <H3><B>23</B></H3>
+    <p>НАГРАД ПОЛУЧЕНО</p>
+</div>
+<div>
+    <h2>Отзывы</h2>
+    <img src="" alt="">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nisi numquam fugiat placeat eius pariatur suscipit nam eum voluptatibus vel. Magni quia iusto beatae vitae earum accusantium velit esse debitis!</p>
+    <p><b>Михаил,</b>Ген директор ПАО "ГАЗПРОМ".</p>
+</div>
+<div>
+    <h2>МОИ КОНТАКТЫ</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus accusantium, praesentium a blanditiis impedit numquam ab magnam, exercitationem amet dolor simili</p>
+    <p>Санкт-Петербург<br>НЕвский проспект 11</p>
+    <p>INFO@companyone.com</p>
+    <p>7-999-222-11-22</p>
+    <h3>ОСТАВТЕ МНЕ СООБЩЕНИЕ</h3>
+    <input type="text" value="Имя">
+    <input type="text" value="Email">
+    <input type="text" value="Сообщение" size="40%">
+    <input type="button" value="Отправить">
+</div>
+<div id="map" style="width: 1000px; height: 400px"></div>
+</body>
+</html>
+<style>
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+    function init(){
+        // Создание карты.
+        var myMap = new ymaps.Map("map", {
+            // Координаты центра карты.
+            // Порядок по умолчанию: «широта, долгота».
+            // Чтобы не определять координаты центра карты вручную,
+            // воспользуйтесь инструментом Определение координат.
+            center: [55.76, 37.64],
+            // Уровень масштабирования. Допустимые значения:
+            // от 0 (весь мир) до 19.
+            zoom: 7
+        });
+    }
+</script>
