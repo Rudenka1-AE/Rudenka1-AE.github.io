@@ -61,7 +61,7 @@ nav{
 .mein2{ /* ИСПРАВИТЬ НУЖНО */
     color: #2c384a;
     font-size: 20px;
-    float: left;
+    
     margin: 118px 0px 0px 0px;
     text-align: center;
 }
@@ -69,8 +69,9 @@ nav{
     font-weight: bold;
 }
 .span2{
-    border: 1px solid black;
+    
     border-spacing: 0px;
+    font-size: 15px;
 }
 .span2 span{
     color: #3f495a;
@@ -139,6 +140,9 @@ nav{
     padding-top: 107px;
     font-weight: bold;
 }
+.keys span{
+    color: #263244;
+}
 .cherta3{
     background: url(../../img/cherta.png) 50% 10%/auto 100% no-repeat;
     height: 4px;
@@ -147,17 +151,222 @@ nav{
 .keys2{
     background: url(../../img/keys.png) 100% no-repeat;
     background-position: -170px 40px;
-    height: 700px;
-}
-.text4 {
-    text-align: center;
-}
-.text4 span{
-    padding-left: 490px;
+    height: 600px;
 }
 .text5{
     float: left;
+    text-align: left;
+    margin: 40px 100px 0px 413px ;
+    color: #384354;
+    line-height: 30px;
+    font-size: 18px;
+}
+.text4{
+    text-align: left;
+    margin-top: 40px;
+    color: #384354;
+    font-size: 18px;
+}
+.button {
+    background-color: #63b5ae;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 .table{
+    margin: 200px 0px 0px 0px;
+}
+.table h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.table3{
+    text-align: left;
+    font-size: 23px;
+    margin: 0px 0px 0px 400px;
+    line-height: 40px;
+    color: #1c2534;
+}
 
+.static h2{
+    color: #384354;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 104px 0px 0px 0px;
+}
+.cherta5{
+    background: url(../../img/cherta.png) 50% 10%/auto 100% no-repeat;
+    height: 4px;
+    margin: 31px;
+}
+.static{
+    text-align: center;
+    background: url(../../img/fon.png) 100% no-repeat;
+    height: 499px;
+    margin: 154px 0px 0px 0px;
+}
+.static ul{
+    float: left;
+    padding: 0px 50px 0px 0px;
+    margin: 100px 0px 0px 200px;
+    font-size: 13px;
+    color: #323e4f;
+}
+#q{
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+    font-size: 27px;
+}
+#w{
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+    font-size: 27px;
+}
+#e{
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+    font-size: 27px;
+}
+#r{
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+    font-size: 27px;
+}
+.test10{
+    background: url(../../img/small.png) 100%/auto no-repeat;
+    height: 55px;
+    margin: 0px 38px 10px 0px;
+}
+.test20{
+    background: url(../../img/skob.png) 100%/auto no-repeat;
+    height: 55px;
+    margin: 0px 10px 10px 0px;
+}
+.test30{
+    background: url(../../img/gall.png) 100%/auto no-repeat;
+    height: 55px;
+    margin: 0px 38px 10px 0px;
+}
+.test40{
+    background: url(../../img/kubok.png) 100%/auto no-repeat;
+    height: 55px;
+    margin: 0px 25px 10px 0px;
+}
+.otzyv{
+    text-align: center;
+    margin: 57px 0px 0px 0px;
+}
+.otzyv h2{
+    font-size: 27px;
+    font-weight: bold;
+    color: #323e4f;;
+}
+.cherta10{
+    background: url(../../img/cherta.png) 50% 10%/auto 100% no-repeat;
+    height: 4px;
+    margin: 31px;
+}
+.photo10{
+    background: url(../../img/photo10.png) 100%/auto no-repeat;
+    height: 100px;
+    margin: 58px 780px 40px 0px;
+}
+.container1{
+    line-height: 20px;
+    margin: 0px 0px 30px 0px;
+    font-size: 12px;
+}
+.conteiner2{
+    font-size: 12px;
+}
+.fon2{
+    background: url(../../img/fon2.png) 50%/auto no-repeat;
+    height: 850px;
+    margin: 156px 0px 0px 0px;
+    text-align: center;
+    color: #fff;
+}
+.fon2 h2{
+    font-weight: bold;
+    padding-top: 104px;
+    font-size: 24px;
+}
+.table10 ul{
+    float: left;
+    padding: 0px 50px 0px 0px;
+    margin: 55px 0px 50px 300px;
+    font-size: 13px;
+    color: #fff;
+}
+.tes{
+    background: url(../../img/geo.png) 100%/auto no-repeat;
+    height: 55px;
+    margin: 0px 50px 10px 0px;
+}
+.tes1{
+    background: url(../../img/konvert.png) 100%/auto no-repeat;
+    height: 60px;
+    margin: 0px 65px 10px 0px;
+}
+.tes2{
+    background: url(../../img/truba.png) 100%/auto no-repeat;
+    height: 55px;
+    margin: 0px 40px 10px 0px;
+}
+.fon2 h3{
+    margin: 200px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.fon3{
+    font-weight: bold;
+    margin: 40px 0px 0px 100px;
+    padding: 40px 0px 0px 0px;
+    font-size: 24px;
+}
+.fon4{
+    border: 1px solid #111b2b;
+    background: #d2d6dc;
+    padding: 5px 60px 5px 10px;
+    float: left;
+}
+.fon5{
+    border: 1px solid #111b2b;
+    background: #d2d6dc;
+    padding: 5px 60px 5px 0px;
+    float: left;
+}
+.fon6{
+    border: 1px solid #111b2b;
+    background: #d2d6dc;
+    padding: 5px 300px 90px 0px;
+    float: left;
+}
+.test99{
+    margin: 0px 0px 20px 650px;
+    padding: 0px 0px 10px 0px;
+    
+}
+.test98{
+    padding: 100px 0px 0px 0px;
+}
+#test9{
+    border: 2px solid #fff;
+    background: #eeeeee;
+    padding: 10px 600px 10px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #878787;
+}
+.knopka2{
+    border: 2px solid #fff;
+    background: #CDD6DB;
+    opacity: .6;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 50px;
 }
